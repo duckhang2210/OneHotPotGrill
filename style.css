@@ -1,0 +1,50 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: red;
+}
+header{
+    background-color: black;
+}
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: red;
+    background-color: black;
+    background-image: url("img/cover.jpg");
+    margin: 0;
+}
+.li-inline li{
+    display: inline;
+}
+
+
+nav ul li a:link, nav ul li a:visited {
+    color: darkgray;
+}
+nav ul li a:hover{
+    color: #4aaaa5;
+}
+.header-nav{
+    width: 500px;
+    overflow: hidden;
+    background-color: black;
+    margin: 0 auto;
+}
+ul li{
+    list-style-type: none;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+.main{
+    background-color: black;
+    width: 75%;
+    margin: 20px auto;
+    height: 700px;
+}
